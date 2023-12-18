@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     node: true,
-    es6: true,
+    es2021: true,
+    commonjs: true,
     "jest/globals": true,
   },
   extends: ["eslint:recommended", "plugin:react/recommended"],
